@@ -5,7 +5,7 @@
         if !new_hash.keys.include?(name)
           new_hash[name] = {type: type, style: []}
         end
-        new_hash[name][:style] << style 
+        new_hash[name][:style] << style
       end
     end
     new_hash
